@@ -40,7 +40,7 @@ function displayImageAndSound() {
     image.className = 'centered-image';
     document.body.appendChild(image);
 
-    const audio = new Audio('bonus-sound.mp3');
+    const audio = new Audio('bonus-sound.MP3');
     audio.play();
 
     setTimeout(() => {
